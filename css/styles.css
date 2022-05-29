@@ -466,6 +466,10 @@ h1,h2,h3,p {
               border-color var(--animation);
 }
 
+.checkbox:focus + .custom-checkbox {
+  border-color: var(--accent-color);
+}
+
 .checkbox:checked + .custom-checkbox{
   background-color: var(--accent-color);
   border-color: var(--accent-color);
@@ -481,6 +485,10 @@ h1,h2,h3,p {
 .checkbox:checked + .custom-checkbox .custom-checkbox-icon{
   opacity: 1;
   color: var(--white-text-color);
+}
+
+.form-link{
+  color: var(--accent-color);
 }
 
 .form-btn{
